@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-image: url("../images/bgimage.png");
 }
@@ -44,6 +48,7 @@ h2 {
 .about {
     max-width: 960px;
     margin-top: 25px;
+    margin: 25px;
     background-color: white;
 }
 
@@ -57,21 +62,23 @@ h2 {
     color: #4aaaa5;
     margin-top: 40px;
     padding: 10px;
-    position: absolute;
-    bottom: 0;
+    border-top: solid 5px #4aaaa5;
     width: 100%;
 }
 
-.border-top-0 {
+/* .border-top-0 {
     background-color: #4aaaa5;
-}
+    width: 5px;
+} */
 
 .portfolio {
     margin-top: 25px;
     background-color: white;
+    margin: 25px;
+    margin-bottom: 100px;
 }
 
-.thumb {
-    margin-left: auto;
-    padding: 30px;
+.card {
+    padding: 15px;
+    border: 0px;
 }
