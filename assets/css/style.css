@@ -98,8 +98,24 @@ hr {
     margin-right: auto;
 }
 
+.port-pic {
+    text-align: center;
+}
+
 .port-pic:hover {
     border: solid 3px #552583
+}
+
+#res {
+    color: #552583;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.fa-file-pdf {
+    color: #552583;
+    font-size: 450px;
+    text-align: center,
 }
 
 .card {
@@ -123,6 +139,11 @@ hr {
     color: white;
     font-family: Georgia, Times, Times-New-Roman, serif;
     margin-bottom: 10px;
+}
+
+.fab {
+    font-size: 24px;
+    color: #552583;
 }
 
 /* @media (max-width 767px) {
