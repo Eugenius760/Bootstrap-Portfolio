@@ -3,7 +3,8 @@
 }
 
 body {
-    background-image: url("../images/bgimage.png");
+    /* background-image: url("../images/bgimage.png"); */
+    background-color: black;
 }
 
 #pic {
@@ -11,9 +12,9 @@ body {
     width: 200x;
 }
 
-p {
+#bio {
     padding: 0px;
-    font-family: Arial, Helvetica-Neue, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-top: 0px;
 }
 
@@ -30,9 +31,9 @@ p {
 }
 .navbar-brand {
     font-size: 24px;
-    font-family: Georgia, Times, Times-New-Roman, serif;
+    font-family: 'Lora', serif;
     padding: 20px;
-    background-color: #4aaaa5;
+    background-color: #552583;
     color: white;
     margin-left: 20px;
 }
@@ -48,8 +49,8 @@ p {
 }
 
 h2 {
-    font-family: Georgia, Times, Times-New-Roman, serif;
-    color: #4aaaa5;
+    font-family: 'Lora', serif;
+    color: #552583;
     margin-bottom: 20px;
     margin-top: 30px;
     padding: 0px 30px;
@@ -58,31 +59,47 @@ h2 {
 .about {
     max-width: 960px;
     margin-top: 25px;
-    margin: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
     background-color: white;
+    border: solid 5px #FDB927; 
 }
 
 .col-md-12 {
     padding: 30px;
 }
 
-.bottom-footer {
-    text-align: center;
-    background-color: gray;
-    color: #4aaaa5;
-    margin-top: 40px;
-    padding: 10px;
-    border-top: solid 5px #4aaaa5;
-    width: 100%;
+hr {
+    color: #FDB927;
+    background-color: #FDB927;
 }
 
-
+.footer {
+    text-align: center;
+    background-color: white;
+    color: #552583;
+    /* margin-top: 40px; */
+    padding: 10px;
+    border-top: solid 5px #552583;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
 
 .portfolio {
     margin-top: 25px;
     background-color: white;
     margin: 25px;
     margin-bottom: 100px;
+    border: solid 5px #FDB927;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.port-pic:hover {
+    border: solid 3px #552583
 }
 
 .card {
@@ -95,18 +112,21 @@ h2 {
     background-color: white;
     margin: 25px;
     margin-bottom: 100px;
+    border: solid 5px #FDB927;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn {
     padding: 20px;
-    background-color: #4aaaa5;
+    background-color: #552583;
     color: white;
     font-family: Georgia, Times, Times-New-Roman, serif;
     margin-bottom: 10px;
 }
 
-@media (max-width 767px) {
+/* @media (max-width 767px) {
     .about {
         margin: auto;
     }
-}
+} */
