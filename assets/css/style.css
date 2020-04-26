@@ -102,6 +102,11 @@ hr {
     text-align: center;
 }
 
+.pro-pic {
+    height: 450px;
+    width: 450px;
+}
+
 .port-pic:hover {
     border: solid 3px #552583
 }
@@ -144,6 +149,18 @@ hr {
 .fab {
     font-size: 24px;
     color: #552583;
+}
+
+.quaren {
+    margin-top: 120px;
+}
+
+.pass {
+    margin-top: 120px;
+}
+
+.weather {
+    margin-top: 120px;
 }
 
 /* @media (max-width 767px) {
