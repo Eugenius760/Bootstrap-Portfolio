@@ -10,6 +10,7 @@ Pages include an About Me, Porfolio and a Contact.
 - Used Bootstrap for the CSS
 - Google Fonts
 - Font Awesome
+- Getwaves.io
 
 ## Flow
 ![](assets/images/Portfolio.gif)

@@ -1,10 +1,46 @@
-* {
+/* * {
     box-sizing: border-box;
 }
 
-body {
+body { */
     /* background-image: url("../images/bgimage.png"); */
-    background-color: black;
+    /* background-color: black;
+} */
+
+.main-content article,
+.main-content article footer.entry-footer {
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,*::before,*::after {
+box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    background: url(../images/mypic.jpg) center fixed; 
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; */
+    background-size: cover;
+    /* background-position: right bottom, left top; */
+    background-repeat: no-repeat;
+}
+
+.wave-container {
+    /* background-image: url(../images/wave1.svg); */
+    margin: 0;
+    box-sizing: content-box;
+}
+
+.wave-container > svg {
+display: block;
+position: absolute;
+bottom: 0;
 }
 
 #pic {
@@ -12,11 +48,11 @@ body {
     width: 200x;
 }
 
-#bio {
+/* #bio {
     padding: 0px;
     font-family: 'Poppins', sans-serif;
     margin-top: 0px;
-}
+} */
 
 .navbar {
     padding: 0px;
@@ -66,6 +102,21 @@ h2 {
     border: solid 5px #FDB927; 
 }
 
+.aboutMe {
+    /* background: #552583; */
+    background-color: #FDB927;
+    margin-top: 30px;
+    opacity: 70%;
+}
+
+.aboutMe p {
+    color: #000000;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    margin-top: 0px;
+}
+
 .col-md-12 {
     padding: 30px;
 }
@@ -86,6 +137,7 @@ hr {
     position: fixed;
     left: 0;
     bottom: 0;
+    height: 2.5rem;
 }
 
 .portfolio {
